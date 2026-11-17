@@ -71,3 +71,51 @@ All practical activities must be performed only on systems that I own or have ex
 
 **Author:** Bhumika  
 **Field:** Cybersecurity
+## Practical Results — Windows 11
+
+**Environment:**
+- Operating System: Windows 11
+- Tool: Nmap
+- Target: 127.0.0.1 (Localhost)
+- Scan Date: 17 November 2026
+
+### 1. Basic Port Scan
+
+Command:
+`nmap 127.0.0.1`
+
+Results:
+- Host status: Up
+- Port 135/tcp: Open — MSRPC
+- Port 445/tcp: Open — Microsoft-DS
+- 998 TCP ports: Closed
+
+### 2. Service Version Detection
+
+Command:
+`nmap -sV 127.0.0.1`
+
+Results:
+- Port 135: Microsoft Windows RPC
+- Port 445: microsoft-ds? (Exact service identification uncertain)
+- OS information: Windows
+
+### 3. Host Discovery
+
+Command:
+`nmap -sn 127.0.0.1`
+
+Results:
+- Host status: Up
+- Active hosts: 1
+- Scan completed successfully.
+
+### What I Learned
+
+- How to perform a basic Nmap scan.
+- How to identify open and closed ports.
+- How to detect services.
+- How to perform host discovery.
+- How to read Nmap scan results.
+
+**Safety:** All scans were performed against my own computer (localhost).
