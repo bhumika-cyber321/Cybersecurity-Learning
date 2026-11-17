@@ -1,0 +1,26 @@
+NMAP TCP CONNECT SCAN REPORT
+
+Tool: Nmap 7.993
+Operating System: Windows 11
+Scan Type: TCP Connect Scan
+Command: nmap -sT -p 135,445 127.0.0.1
+Target: 127.0.0.1 (Localhost)
+
+SCAN RESULTS
+
+Host Status: Up
+
+PORT    STATE    SERVICE
+135/tcp open     msrpc
+445/tcp open     microsoft-ds
+
+Total Hosts Scanned: 1
+Active Hosts: 1
+
+LEARNING:
+1. Learned TCP Connect Scanning.
+2. Identified open ports.
+3. Saved Nmap scan output.
+4. Practiced scanning on localhost.
+
+Safety: Scan performed only on my own computer.
