@@ -74,3 +74,19 @@ I believe in:
 ⭐ Learning | Practicing | Building | Securing
 
 🔐 *Stay Curious. Stay Ethical. Stay Secure.*
+
+## 🔬 My Cybersecurity Projects
+
+### 1. Nmap Network Scanning Lab
+- Practiced TCP Connect Scan
+- Practiced TCP SYN Scan
+- Identified open ports on localhost
+- [View Nmap Lab](./Nmap-Network-Scanning-Lab.md)
+
+### 2. Wireshark Packet Analysis Lab
+- Learning network packet analysis
+- Exploring TCP, UDP and DNS
+- [View Wireshark Lab](./Wireshark-Packet-Analysis-Lab.md)
+
+## 🎯 My Career Goal
+To build a career in Cybersecurity, SOC Operations and VAPT.
